@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XOOREA</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="Homeimages/logo.png" type="image/x-icon">
+    <script> 
+
+            /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+
+          // Close the dropdown menu if the user clicks outside of it
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName       ("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+    </script>
+</head>
+<body>
+
+    <header>
+        <a href="#"><img src="Homeimages/logo.png" alt="Logo"></a>
+
+        <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Services</li></a>
+            <a href="#contact"><li>Contact</li></a>
+        </ul>
+
+       <div class="navcon">
+        <button onclick="myFunction()" class="dropbtn">
+            
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Services</li></a>
+            <a href="#contact"><li>Contact</li></a>
+          </div>
+       </div>
+    </header>
+
+
+    <section class="Home">
+        <!-- Banner -->
+        <div class="Hometxt">
+            <img class="Homeh1" src="Homeimages/Xoorea home.png" alt="XOOREA">
+            <h2>We help realtors make their listings stand out
+               <br> with high-end photos and videos.</h2>
+
+               <button>
+                Learn more <img class="Home next" src="Homeimages/next home.png" alt="">
+               </button>
+
+               <img src="Homeimages/Bubbles.png" alt="Bubbles" class="bubbles">
+        </div>
+
+        <div class="Homecard">
+            <img src="Homeimages/Home card.png" alt="Building" class="card">
+        </div>
+
+    </section>
+
+    <section class="intro">
+        <div class="introleft">
+            <h1>
+                No more boring <br> commercials
+            </h1>
+            <p>
+                Awesome presentation of listing drives more traffic, buyers first fall in love with what they see before opting in for inspection. We make your listing stand out and stay on the edge, unsderstaning the human psychology of appearnce, we’ve used it to create amazing pictures and videos that help upscale realtors listing.
+            </p>
+
+            <button>
+                Get in touch
+                <img src="Homeimages/messenger.png" alt="message">
+            </button>
+        </div>
+
+        <div class="introright">
+            <img src="Homeimages/play .png" alt="Play">
+        </div>
+    </section>
+
+    <section class="intro1">
+        <div class="space">
+            <img src="Homeimages/space.png" alt="soace">
+        </div>
+
+        <div class="spacetxt">
+            <h1>
+                A sense of the <br> space
+            </h1>
+            <p>
+                Real estate photography and videography can be a powerful marketing tool, providing potential buyers with an immersive look at a property, video can capture the feeling of a home, giving viewers a sense of the space and how it could be used. In addition, video can be an effective way to highlight a property’s unique features and Selling Points.
+            </p>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="atop">
+            <div class="axoorea">
+                <h1>About Xoorea</h1>
+                <p>
+                    Real estate is a highly competitive industry, and marketing can be a really tedious for agents looking to showcase a listing in its best light, highlighting features that would be difficult to convey through words alone. We as a brand is existing to connect the dots when it come to delivering high definition pictures and videos for the sole purpose of real estate and interior decoration marketing.  
+                </p>
+            </div>
+            <h2>
+                We help realtors make their listings <br>
+                <span>stand out</span>
+            </h2>
+        </div>
+
+        <div class="abottom">
+            <div class="k">
+                <h1>01</h1>
+                <h2><span>17k</span><br>interior pictures</h2>
+                <button>
+                    Explore our gallery <img src="Homeimages/rocket-lunch.png" alt="">
+                </button>
+            </div>
+
+            <div class="reels">
+                <h1>01</h1>
+                <h2> How <span>instagram reels</span><br>can drive more sales</h2>
+                <div class="aut">
+                    <h3>by xoorea</h3>
+                    <h3>last week</h3>
+                </div>
+            </div>
+
+            <div class="resident">
+                <h1>01</h1>
+                <img src="Homeimages/vplay.png" alt="">
+                <h2>5 most important views for every <br>residential listing</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="meth">
+        <h1>Our methods can also be applied to
+           <br> interior decor brands</h1>
+
+           <div class="mart">
+            <p>
+                We don’t just stop at taking pictures and videos of home exteriors, we go as far as showing the beauty that lies withing the interior  of home, interior designers can bank on this advantage and elevate thier workflow.
+            </p>
+
+            <button>
+                Contact us <img src="Homeimages/paper-plane.png" alt="">
+            </button>
+           </div>
+
+           <div class="vd">
+            <video autoplay controls 
+           src="Homeimages/vid.mp4"></video>
+           </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="ch">Need Help? Reach out to Us</h1>
+
+        <div class="con">
+            <div class="boxc">
+                <img src="Homeimages/customer-service.png" alt="">
+                <h1>Assistant</h1>
+                <p>
+                    Our virtual assistant is available, 24 hours of the day. <span>Contact us</span> now.
+                </p>
+            </div>
+
+            <div class="boxc">
+                <img src="Homeimages/phone.png" alt="">
+                <h1>Contact Us</h1>
+                <p>
+                    <span>Email:</span> info@xoorea.online
+                    <span>Phone Number:</span> +234 814 565 2101 
+                    <span>Address:</span> 1613b Adewunmi Ogunsanya, Victoria Island.
+                </p>
+            </div>
+
+            <div class="boxc">
+                <img src="Homeimages/messenger 1.png" alt="">
+                <h1>WhatsApp</h1>
+                <p class="wh">
+                    We have an active response team always online that will aid you navigate our services better. 
+                    <span>Click here to get started.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+       <div class="newsleft">
+        <h1>Newsletter</h1>
+
+        <p>Subcribe to our newsletter <br>
+        for latest updates</p>
+
+        <input type="text" placeholder="Enter your email">
+
+        <button>Subscribe</button>
+       </div>
+
+       <img src="Homeimages/send.png" alt="">
+    </section>
+
+    <section class="blog">
+        <h1>Real estate video <br><span>marketing</span></h1>
+
+        <p>
+            Employing the services of a videographer who understands this can provide you with a good return on your investment by enabling you to publish the video content onto numerous platforms and social ...
+        </p>
+
+        <button>Read more <img src="Homeimages/nextb.png" alt=""></button>
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <img src="Homeimages/logo white.png" alt="">
+           <h4> Copyright &copy; 2023 xoorea - All rights reserved.<a href="#"></a></h4>
+           <h6>Terms of Service</h6>
+           <h6>Privacy Policy</h6>
+        </div>
+
+        <div class="ctact">
+            <p>
+                <span>Email:</span> info@xoorea.online <br>
+                <span>Phone Number:</span> +234 814 565 2101 <br>
+                <span>Address:</span> 1613b Adewunmi, VI Lagos.
+            </p>
+        </div>
+
+        <div class="socials">
+            <h1>Social Media</h1>
+            <ul>
+                <li>Instagram</li>
+                <li>Twiter</li>
+                <li>Threads</li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
